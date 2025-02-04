@@ -23,24 +23,28 @@ function AboutCard() {
            Aspiring to launch my own clothing and outdoor brand, <i>Faneti[k],</i> with expertise in Adobe design and production.
            <br></br>
            <p></p>
-           Apart from coding, some other activities that I love to do!
+           Apart from school, some other things I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight />  Everything outdoors! 
+              <ul>
+                <li>Skiing</li>
+                <li>Hiking</li>
+                <li>Camping</li>
+                <li>Surfing</li>
+                <li>Climbing</li>
+                <li>And so much more!</li>
+              </ul>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight />  Cooking and nutrition - I love creating my own recipes!
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Daily Crosswords and Sudokus!
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
