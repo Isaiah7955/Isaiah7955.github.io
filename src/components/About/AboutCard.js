@@ -8,16 +8,22 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+           Hi everyone, my name is  <span className="purple">Isaiah Hernandez-Gold </span> 
+           and I am an <strong>Austin, Texas</strong> native and a current <strong>CU Boulder student.</strong> 
+           <br></br>
+           <p></p>
+           I am currently majoring in <strong>Information Management</strong>, with minors in 
+           <strong> Computer Science</strong> and <strong>Creative Technology Design</strong>. 
+           <br></br>
+           <p></p>
+           I am extremely passionate about data analytics, visualization, and modification. I am currently focusing on technical 
+           analyst roles, specifically those in the apparel or consulting sectors. 
+           <br></br>
+           <p></p>
+           Aspiring to launch my own clothing and outdoor brand, <i>Faneti[k],</i> with expertise in Adobe design and production.
+           <br></br>
+           <p></p>
+           Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">

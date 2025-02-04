@@ -152,6 +152,16 @@ button:focus {
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
+  padding: 0 !important;          /* Removes extra padding */
+  margin: 0 !important;           /* Removes extra margin */
+  display: flex;
+  align-items: flex-start;        /* Aligns the content to the top */
+}
+
+.navbar-brand img {
+  height: 40px;                   /* Adjust the size of the image */
+  width: auto;                    /* Maintain aspect ratio */
+  margin: 5px;                    /* Adds slight margin for spacing */
 }
 
 .logo {
@@ -281,7 +291,7 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #29bb8f;
 }
 
 .Typewriter__wrapper {
@@ -409,11 +419,12 @@ button:focus {
 }
 .footer-copywright {
   text-align: center !important;
+  padding-bottom: 8px !important ;
 }
 
 .footer-body {
-  z-index: 1;
-  text-align: center !important;
+  z-index: 2;
+  text-align: right !important;
 }
 
 @media (max-width: 767px) {
