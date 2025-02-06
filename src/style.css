@@ -752,3 +752,42 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.skills-section {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.skills-category {
+  margin-bottom: 1.5rem;
+}
+
+.skills-category h3 {
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.skills-category ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.skills-category ul li {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.skills-category a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.skills-category a:hover {
+  text-decoration: underline;
+}

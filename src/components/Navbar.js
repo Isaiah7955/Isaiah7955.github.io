@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineTool
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -83,6 +84,18 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
+
+              <Nav.Link
+                as={Link}
+                to="/portfolio"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineTool style={{ marginBottom: "2px" }} />{" "}
+                Portfolio
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -92,15 +105,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
 
           </Nav>
         </Navbar.Collapse>
