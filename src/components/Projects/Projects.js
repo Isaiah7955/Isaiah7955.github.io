@@ -5,9 +5,12 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import adidas1 from "../../Assets/Projects/adidas1.png";
+import adidas2 from "../../Assets/Projects/adidas2.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Carousel from "react-bootstrap/Carousel";
+
 
 function Projects() {
   return (
@@ -15,7 +18,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Previous Project <strong className="purple">Experiences </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,12 +26,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={[adidas1]}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Adidas Lead Time Deviation Project"
+              description="Helped conduct a root cause analysis and modeling of current lead time statistics for all warehoues in the United States for Adidas. Reduced the lead time deviation and accuracy of SAP model and decreasing the lead time deviation by 15 days on average for all orders, with projected $480k in savings for Inbound Team."
+              //ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://drive.google.com/drive/folders/17R1_F76AyJb1HhpZiIBaqPgb5tyFSvs7?usp=sharing"
             />
           </Col>
 
