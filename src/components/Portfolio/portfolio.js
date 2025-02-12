@@ -10,6 +10,8 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import newSectionImage from "../../Assets/Projects/BASE.png"; // Add your image
+import tableauImage from "../../Assets/Projects/Tableau3.png";
+import tableauImage2 from "../../Assets/Projects/Tableau2.png";
 
 function portfolio() {
   return (
@@ -95,28 +97,25 @@ function portfolio() {
 
           <Col md={12} style={{ marginTop: "40px" }}>
             <hr style={{ borderTop: "3px solid purple", marginBottom: "30px" }} />
-            <h2 className="purple">Project Highlights</h2>
+            <h2 className="purple">Tableau Data Visualization Projects</h2>
             
             <Row className="justify-content-center">
               <Col md={6} className="mb-4">
-                <img 
-                  src="path/to/your/image1.jpg" 
-                  alt="Project 1" 
-                  style={{ width: "100%", height: "auto", borderRadius: "10px" }} 
-                />
+
+                  <img src={tableauImage} alt="Tableau Visualization" style={{ width: "100%", height: "auto" }} /> 
+                
                 <p style={{ color: "white", textAlign: "center" }}>
-                  Brief description of project 1. Explain the key takeaway here.
+                  Case study #1 for University depicting major and student retention.
                 </p>
               </Col>
               
               <Col md={6} className="mb-4">
-                <img 
-                  src="path/to/your/image2.jpg" 
-                  alt="Project 2" 
-                  style={{ width: "100%", height: "auto", borderRadius: "10px" }} 
-                />
+
+
+                  <img src={tableauImage2} alt="Tableau Visualization" style={{ width: "100%", height: "auto" }} /> 
+
                 <p style={{ color: "white", textAlign: "center" }}>
-                  Brief description of project 2. Highlight the important aspects here.
+                  Case study #2 for University analyzing gender and ethnicity retention.
                 </p>
               </Col>
             </Row>
