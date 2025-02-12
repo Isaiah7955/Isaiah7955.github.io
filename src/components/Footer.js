@@ -14,8 +14,8 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Website by Isaiah Hernandez-Gold</h3>
+        <Col md="12" className="footer-copywright">
+          <h3>Website by Isaiah Hernandez-Gold || Email: Isaiah19lsc@gmail.com</h3>
         </Col>
       </Row>
     </Container>

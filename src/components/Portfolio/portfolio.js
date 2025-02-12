@@ -15,15 +15,15 @@ function portfolio() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Technical  <strong className="purple">Skillset </strong>
+        <strong className="purple">Computer Science</strong> And  <strong className="purple">Analytical </strong> Assignments
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          A portfolio of work done in technical softwares: <u>C/C++</u>, <u>GCP</u>, <u>Tableau</u>, <u>Python</u>, <u>Adobe Illustrator</u> and more!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              //imgPath={chatify}
               isBlog={false}
               title="Chatify"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."

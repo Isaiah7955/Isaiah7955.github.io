@@ -16,16 +16,17 @@ function ProjectCards(props) {
       }}
     >
       <Card.Img variant="top" src={props.imgPath} alt="card-img" 
-        //  style={{ 
-        //    height: "250px", // Adjust height for larger image
+          style={{ 
+            height: "240px" // Adjust height for larger image
         //    width: "280px",
         // //   objectFit: "cover", // Ensures image fills the space properly
         //    borderTopLeftRadius: "15",
         //    borderTopRightRadius: "15px"
-        //  }} 
+          }} 
       />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title><strong>{props.title}</strong></Card.Title>
+        <hr style={{ borderTop: "3px solid white", margin: "10px 0", opacity: 1}} />
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
@@ -46,7 +47,7 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"More"}
+            {"Click for more info"}
           </Button>
         )}
       </Card.Body>
