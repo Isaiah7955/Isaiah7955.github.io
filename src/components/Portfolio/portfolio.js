@@ -25,10 +25,10 @@ function portfolio() {
             <ProjectCard
               //imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Catalogue Search Methods"
+              description="Created a search method throughout a catalogue of data that parsed through the data in 3 different methods: Hash Chaining, Hash Open Addressing or Binary Search Tree. This was chosen by the user."
+              ghLink="https://github.com/Isaiah7955/Data-Structures-Code"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function portfolio() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Creating Own Unix Shell"
+              description="Created my own Unix Shell to mimic the activity of the shells in our computing systems. Was able to create commands for navigating if user requested built-in command and forking the child process if necessary. Created differentiating activity between background and foreground activity, as well as creating signal handlers for user (child termination, ctrl-c and ctrl-z."
+              ghLink="https://github.com/Isaiah7955/Computer-Systems-Code/tree/main"
+              //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function portfolio() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Created Multi-Threaded Requester/Resolver Solution"
+              description="In this project, I created a shared array that had a maximum amount of space in which a multitude of over 100 threads were trying to access shared data of 8 spots - having to implement necessary sempahores and mutexes in order to lock protected data. Created a properly secured shared array able to pull and push data onto logfile without corruption. Click link for the code!"
+              ghLink="https://github.com/Isaiah7955/Operating-Systems-Code"
+              //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function portfolio() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Predictive Paging Model"
+              description="Created an algorithm to operating a control of when pages are paged in and out of our Operating Systems, allocating multiple processes for maximum success. Utilized methods such as transition matrix, popularity matrix and an allocation of predictive next page file allocations."
+              ghLink="https://github.com/Isaiah7955/Operating-Systems-Code-2/tree/main"
+              //demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 

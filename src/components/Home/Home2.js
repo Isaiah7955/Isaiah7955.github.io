@@ -28,7 +28,7 @@ function Home2() {
               <br />
               <br />
               My field of interests lie within the Business and Data Analytical positions post-graduation,
-              with current emphasises on the <i>apparel</i> and <i>small/medium sized consulting firms</i> industries
+              with current emphasises on the <i>apparel</i> and <i>small/medium sized consulting firms</i> industries.
 
               <br />
               <br />
