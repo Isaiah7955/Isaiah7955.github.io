@@ -20,15 +20,15 @@ function Home2() {
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              My name is Isaiah Hernandez-Gold and I am a current senior at the University of Colorado at 
+              My name is Isaiah Hernandez-Gold and I am a senior at the University of Colorado at 
               Boulder studying Information Management with minors in Computer Science and Creative Technology Design.
               <br />
-              <br />I have been a <em>Deans Leadership Fellow</em> and <em>Honors</em> student all 4 years. I have been 
-              a part of the <em>Deans List</em> with a <strong>3.8 GPA</strong> coming into the final semester.
+              <br />I have been a <u>Dean's Leadership Fellow</u> and <u>Honors</u> student all 4 years. I have been 
+              a part of the <u>Dean's List</u> with a <strong>3.8 GPA</strong> coming into the final semester.
               <br />
               <br />
-              My fields of interest lie within the Business and Data Analytical positions post-graduation,
-              with current emphasises on the <i>apparel</i> and <i>small/medium sized consulting firms</i> industries.
+              I am seeeking a Business and Data Analytical position after graduation,
+              with a particular focus on the <i>apparel</i> and <i>small/medium sized consulting firms</i> industries.
 
               <br />
               <br />
@@ -59,7 +59,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:isaiah19lsc@gmail.com"
+                  href="mailto:isaiahhernandezgold@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

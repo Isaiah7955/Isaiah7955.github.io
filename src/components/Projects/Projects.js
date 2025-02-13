@@ -32,7 +32,7 @@ function Projects() {
               imgPath={[adidas1]}
               isBlog={false}
               title="Adidas Lead Time Deviation Project"
-              description="Helped conduct a root cause analysis and modeling of current lead time statistics for all warehouses in the United States for Adidas. Reduced the lead time deviation and accuracy of current SAP model and decreased the lead time deviation by 15 days on average for all orders, with projected $480k in savings for Inbound Team."
+              description="Helped conduct a root cause analysis and modeling of current lead time statistics for all warehouses in the United States for Adidas. Reduced the lead time deviation and accuracy of current SAP model and decreased the lead time deviation by 15 days on average for all orders, with projected $480k in annual savings for Inbound Team."
               //ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://drive.google.com/drive/folders/17R1_F76AyJb1HhpZiIBaqPgb5tyFSvs7?usp=sharing"
             />
@@ -43,7 +43,7 @@ function Projects() {
               imgPath={adidas3}
               isBlog={false}
               title="Adidas Inbound KPI Dashboard"
-              description="Created a KPI dashboard via Microsoft PowerBi, compiling all data sources and metrics for all team members onto central location. Linked with real-time data from Data Lakehouse, reports from SAP and direct Excel files from warehouses. Used SQL and Python to derive exact metrics and measurements analysts needed, allowing real-time data refresh from all sources on a central location."
+              description="Created a KPI dashboard via Microsoft PowerBi, compiling data sources and metrics for all team members into a central location. Linked with real-time data from Data Lakehouse, reports from SAP and direct Excel files from warehouses. Used SQL and Python to derive exact metrics and measurements analysts needed, allowing real-time data refresh from all sources on a central location."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://drive.google.com/drive/folders/1DPvahoaCiruaBAz6046A2-JFfoJc8Ya1?usp=sharing"
             />

@@ -9,21 +9,21 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
            Hi everyone, my name is  <span className="purple">Isaiah Hernandez-Gold </span> 
-           and I am an <strong>Austin, Texas</strong> native and a current <strong>CU Boulder student.</strong> 
+           and I am an <strong>Austin, Texas,</strong> native and a current <strong>CU Boulder student.</strong> 
            <br></br>
            <p></p>
-           I am currently majoring in <strong>Information Management</strong>, with minors in 
-           <strong> Computer Science</strong> and <strong>Creative Technology Design</strong>. 
+           I am majoring in <strong>Information Management</strong>, with minors in 
+           <strong> Computer Science</strong> and <strong>Creative Technology Design</strong> and practical expertise in Adobe design and production. 
            <br></br>
            <p></p>
            I am extremely passionate about data analytics, visualization, and modification. I am currently focusing on technical 
            analyst roles, specifically those in the apparel or consulting sectors. 
            <br></br>
            <p></p>
-           Aspiring to launch my own clothing and outdoor brand, <i>Faneti[k],</i> with expertise in Adobe design and production.
+           I hope one day to launch my own clothing and outdoor brand, <i>Faneti[k]</i>.
            <br></br>
            <p></p>
-           Apart from school, some other things I love to do!
+           Outside of school and work, here are some other things I love to do!
           </p>
           <ul>
             <li className="about-activity">
