@@ -27,7 +27,7 @@ function Home2() {
               a part of the <em>Deans List</em> with a <strong>3.8 GPA</strong> coming into the final semester.
               <br />
               <br />
-              My field of interests lie within the Business and Data Analytical positions post-graduation,
+              My fields of interest lie within the Business and Data Analytical positions post-graduation,
               with current emphasises on the <i>apparel</i> and <i>small/medium sized consulting firms</i> industries.
 
               <br />

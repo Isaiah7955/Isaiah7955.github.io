@@ -32,7 +32,7 @@ function Projects() {
               imgPath={[adidas1]}
               isBlog={false}
               title="Adidas Lead Time Deviation Project"
-              description="Helped conduct a root cause analysis and modeling of current lead time statistics for all warehoues in the United States for Adidas. Reduced the lead time deviation and accuracy of SAP model and decreasing the lead time deviation by 15 days on average for all orders, with projected $480k in savings for Inbound Team."
+              description="Helped conduct a root cause analysis and modeling of current lead time statistics for all warehouses in the United States for Adidas. Reduced the lead time deviation and accuracy of current SAP model and decreased the lead time deviation by 15 days on average for all orders, with projected $480k in savings for Inbound Team."
               //ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://drive.google.com/drive/folders/17R1_F76AyJb1HhpZiIBaqPgb5tyFSvs7?usp=sharing"
             />

@@ -1,22 +1,32 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 
-function PortfolioCard2({ title, description, moreInfoLink }) {
+function PortfolioCard2(props) {
   return (
-    <div style={{ textAlign: "center", margin: "10px 0" }}>
-      {moreInfoLink && (
-        <Button
-          variant="primary"
-          href={moreInfoLink}
-          target="_blank"
-          style={{ marginTop: "10px" }}
-        >
-          <CgWebsite /> &nbsp;
-          {"Click for More"}
-        </Button>
-      )}
-    </div>
+    <Card className="project-card-view" style={{ boxShadow: "none" }}>
+      {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
+      <Card.Body>
+        <Card.Title>{props.title}</Card.Title>
+        <Card.Text style={{ textAlign: "justify" }}>
+          {props.description}
+        </Card.Text>
+
+        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {!props.isBlog && props.demoLink && (
+          <Button
+            variant="primary"
+            href={props.demoLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            Click for more info
+          </Button>
+        )}
+      </Card.Body>
+    </Card>
   );
 }
 
